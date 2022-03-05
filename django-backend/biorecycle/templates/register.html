@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <div>
+            <label for="email" >Email</label>
+            {{ form.email }}
+        </div>
+        <div>
+            <label for="password1" >Cree una clave</label>
+            {{ form.password1 }}
+        </div>
+        <div>
+            <label for="password2" >Repita la clave</label>
+            {{ form.password2 }}
+        </div>
+        <div>
+            <label for="username" >Nombre de usuaio</label>
+            {{ form.username }}
+        </div>
+        <div>
+            <label for="name" >Primer Nombre</label>
+            {{ form.name }}
+        </div>
+        <div>
+            <label for="last_name" >Apellido</label>
+            {{ form.phone_number }}
+        </div>
+        <div>
+            <label for="address" >Direccion</label>
+            {{ form.address }}
+        </div>
+        <div>
+            <label for="phone_number" >Telefono</label>
+            {{ form.phone_number }}
+        </div>
+        <div>
+            <button type="submit">Registrarse</button>
+        </div>
+    </form>
+<div>{{ msg }}</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "districts",
+  "info": {
+    "singularName": "district",
+    "pluralName": "districts",
+    "displayName": "District"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "address": {
+      "type": "text"
+    },
+    "reference": {
+      "type": "string"
+    }
+  }
+}

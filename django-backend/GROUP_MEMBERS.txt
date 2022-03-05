@@ -1,0 +1,5 @@
+GROUP_NAME = "BioRecycle"
+MEMBERS = [
+    'Jose Leon',
+    'Marvelys Solange'
+]

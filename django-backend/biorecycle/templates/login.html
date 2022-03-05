@@ -1,0 +1,19 @@
+{% block body %}
+<form method="POST">
+    {% csrf_token %}
+    <div>
+        <label for="email" >Email</label>
+        {{ form.email }}
+    </div>
+    <div>
+        <label for="password" >Contraseña</label>
+        {{ form.password }}
+    </div>
+    <div>
+        <button type="submit">Loguear</button>
+    </div>
+</form>
+<div>
+    {{ msg }}
+</div>
+{% endblock %}

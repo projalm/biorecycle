@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/navyfooter.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/registro.css" />
+    <link rel="icon" href="img/logopng.png" />
+    <title>BioRecycle</title>
+  </head>
+
+  <!-- BARRA DE NAVEGACION -->
+  <!-- RECUERDE ANEXAR EL CDN DE BOOTSTRAP Y EL CSS QUE SE LLAMA NAVYFOOTER PARA QUE FUNIONEN EL FOOTER Y EL NAV YA QUE ESTA HECHO CON AMBOS-->
+
+  <body>
+      
+    <div class="logo text-center">
+      <img src="img/logopng.png" class="img-logo mt-2 mb-2" alt="" />
+    </div>
+    <div class="nombre sticky-top border-top border-bottom">
+      <nav class="navbar navbar-light container">
+        <div class="d-flex">
+          <a href="index.html"
+            ><img
+              class="logo2 mt-2"
+              src="img/logocortado.png"
+              alt=""
+              href="index.html"
+          /></a>
+        </div>
+        <ul class="nav justify-content-end fw-bold">
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-current="page" href="index.html"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="catalogo.html">Canjear</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="perfil.html">Perfil</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-light"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Reciclar</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="reciclar.html">Ir a reciclar</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="municipalidad.html"
+                  >Puntos de acopio</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="login.html">Iniciar Sesion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="registro.html">Registrarme</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="formulario w-75 m-auto">
+        <h1 class="text-center mb-5">Registrate</h1>
+      <form>
+        <div class="form-row d-flex justify-content-between">
+          <div class="form-group col-md-6">
+            <label for="inputName">Nombres</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputName"
+              placeholder="Nombres"
+            />
+          </div>
+          <div class="form-group col-md-5">
+            <label for="inputApellidos">Apellidos</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputApellidos"
+              placeholder="Apellidos"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputContraseña">Contraseña</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputContraseña"
+            placeholder="Contraseña"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputDireccion">Direccion</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputDireccion"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="form-row d-flex justify-content-between">
+          <div class="form-group col-md-6">
+            <label for="inputCiudad">Ciudad</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCiudad"
+              placeholder="Ciudad"
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputEstado">Estado</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputEstado"
+              placeholder="Estado"
+            />
+          </div>
+          
+          </div>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputTelefono">Telefono</label>
+            <input type="number" class="form-control" id="inputTelefono" />
+
+
+        <button type="submit" class="btn btn-primary bg-success mt-3">Registrar</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="d-flex justify-content-center text-light fs-3">
+        <div class="m-5">
+          <i class="bi bi-facebook ms-3 me-3"></i>
+          <i class="bi bi-twitter ms-3 me-3"></i>
+          <i class="bi bi-instagram ms-3 me-3"></i>
+          <i class="bi bi-whatsapp ms-3 me-3"></i>
+        </div>
+      </div>
+      <ul class="nav justify-content-center pb-2">
+        <li class="nav-item">
+          <a class="nav-link text-light" aria-current="page" href="#">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">CANJE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">¿COMO USAR?</a>
+        </li>
+      </ul>
+      <div class="logo text-center">
+        <img src="img/logopng.png" class="img-logo mb-2" alt="" />
+      </div>
+      <div class="text-center pb-3">
+        <span class="text-light"
+          >Copyright © 2022 All rights reserved - BioRecycle</span
+        >
+        <br />
+        <span class="text-light">Designe by DUENDES VERDES</span>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

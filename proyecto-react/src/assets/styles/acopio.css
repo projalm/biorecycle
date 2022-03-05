@@ -1,0 +1,26 @@
+.container-iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem;
+}
+
+.lista-distritos {
+  background-color: black;
+  list-style: none;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}

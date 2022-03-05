@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Login */
+.boton-verde {
+  background-color: #85b595;
+  border-radius: 2px;
+  border: none;
+  width: 80px;
+  height: 35px;
+}
+
+/* MUNICIPALIDAD */
+
+.catalogo {
+  background-color: #413838;
+}
+
+.catalogo-products {
+  background-color: #85b595;
+}
+
+.boton-verde {
+  background-color: #85b595;
+  border-radius: 2px;
+  border: none;
+  width: 80px;
+  height: 35px;
+}
+
+.imagen-catalogo {
+  width: 25vw;
+  height: 30vh;
+}
+
+.carta-oscura {
+  background-color: #413838;
+}
+
+.logo2 {
+  width: 250px;
+  height: 50px;
+}
+
+/* NAV Y FOOTER */
+
+.logo {
+  background-color: #413838;
+}
+
+.img-logo {
+  width: 90px;
+  height: 80px;
+  text-align: center;
+}
+
+.logo-br {
+  width: 10px;
+  height: 15px;
+}
+
+.nombre {
+  background-color: #85b595;
+}
+
+.letra-logo1 {
+  color: rgb(40, 61, 19);
+}
+.letra-logo2 {
+  color: rgb(122, 122, 221);
+}
+
+.footer {
+  background-color: #413838;
+}
+.logo2 {
+  width: 250px;
+  height: 50px;
+}
+
+/* PERFIL */
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+.container-carrusel {
+  background-color: #413838;
+}
+#carouselExampleIndicators img {
+  height: 500px;
+}
+
+.container-carrusel h5 {
+  font-size: 30px;
+}
+
+.carousel-texto {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container-descrip {
+  color: white;
+  background-color: #85b595;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.somos {
+  margin: 40px;
+}
+
+.container-descrip h2 {
+  margin: 0 0 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container-descrip img {
+  width: 550px;
+  height: 400px;
+}
+
+.logo2 {
+  width: 250px;
+  height: 50px;
+}
+
+.container-productos {
+  color: white;
+  background-color: #413838;
+  text-align: center;
+  padding: 50px 40px;
+}
+.productos {
+  display: flex;
+  justify-content: center;
+}
+
+.container-productos .producto {
+  background-color: #85b595;
+  margin: 50px;
+  border-radius: 3px;
+}
+
+.container-productos img {
+  width: 200px;
+  height: 200px;
+  border-radius: 3px;
+}
+
+.texto {
+  padding: 10px;
+  width: 200px;
+}
+
+/* .container-descuentos {
+  background-image: url("img/botellasplastico.jpg");
+} */
+
+.pantalla {
+  color: white;
+  background-color: rgba(133, 181, 149, 0.6);
+  padding: 80px;
+  text-align: center;
+}
+
+.descuento {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.descuento p {
+  margin: 30px 0;
+}
+
+.btn-descuento {
+  color: white;
+  background-color: #413838;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+/* CARRUSEL IMAGES */
+
+.tamano {
+  height: 39em;
+}

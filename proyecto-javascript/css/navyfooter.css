@@ -1,0 +1,28 @@
+.logo {
+  background-color: #413838;
+}
+
+.img-logo {
+  width: 90px;
+  height: 80px;
+  text-align: center;
+}
+
+.nombre {
+  background-color: #85b595;
+}
+
+.letra-logo1 {
+  color: rgb(40, 61, 19);
+}
+.letra-logo2 {
+  color: rgb(122, 122, 221);
+}
+
+.footer {
+  background-color: #413838;
+}
+.logo2 {
+  width: 250px;
+  height: 50px;
+}

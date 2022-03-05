@@ -1,0 +1,13 @@
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+.boton-verde {
+  background-color: #85b595;
+  border-radius: 2px;
+  border: none;
+  width: 80px;
+  height: 35px;
+}

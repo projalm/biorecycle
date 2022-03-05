@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/navyfooter.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="img/logopng.png" />
+    <title>BioRecycle</title>
+  </head>
+
+  <!-- BARRA DE NAVEGACION -->
+  <!-- RECUERDE ANEXAR EL CDN DE BOOTSTRAP Y EL CSS QUE SE LLAMA NAVYFOOTER PARA QUE FUNIONEN EL FOOTER Y EL NAV YA QUE ESTA HECHO CON AMBOS-->
+
+  <body>
+    <div class="logo text-center">
+      <img src="img/logopng.png" class="img-logo mt-2 mb-2" alt="" />
+    </div>
+    <div class="nombre sticky-top border-top border-bottom">
+      <nav class="navbar navbar-light container">
+        <div class="d-flex">
+          <a href="index.html"
+            ><img
+              class="logo2 mt-2"
+              src="img/logocortado.png"
+              alt=""
+              href="index.html"
+          /></a>
+        </div>
+        <ul class="nav justify-content-end fw-bold">
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-current="page" href="index.html"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="catalogo.html">Canjear</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="perfil.html">Perfil</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-light"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Reciclar</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="reciclar.html">Ir a reciclar</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="municipalidad.html"
+                  >Puntos de acopio</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="login.html">Iniciar Sesion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="registro.html">Registrarme</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="container-carrusel">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="img/periodico.jpg"
+              alt="First slide"
+            />
+            <div
+              class="carousel-texto carousel-caption d-none d-md-block rounded"
+            >
+              <h5>Texto de ejemplo</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestias ducimus minima fugia.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="img/botellasplastico.jpg"
+              alt="Second slide"
+            />
+            <div
+              class="carousel-texto carousel-caption d-none d-md-block rounded"
+            >
+              <h5>Texto de ejemplo</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestias ducimus minima fugia.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="img/431201.jpeg"
+              alt="Third slide"
+            />
+            <div
+              class="carousel-texto carousel-caption d-none d-md-block rounded"
+              style="--bs-bg-opacity: 0.5"
+            >
+              <h5>Texto de ejemplo</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestias ducimus minima fugia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="container-descrip" id="somos">
+      <div class="somos">
+        <h2>¿Que hacemos?</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam,
+          iusto laboriosam? Nemo, sapiente non. Soluta voluptatum tempora
+          praesentium perferendis, excepturi atque itaque porro, alias explicabo
+          amet laboriosam temporibus, pariatur enim. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Harum nam atque incidunt, tempore esse
+          officiis. Expedita voluptatibus ut, sapiente recusandae id quasi autem
+          porro earum inventore, dolores, possimus iste? Lorem, ipsum dolor sit
+          amet consectetur adipisicing elit. Quam ab delectus ipsam facilis
+          blanditiis rem voluptate commodi eos iure nihil velit quo autem atque
+          sequi, eveniet magnam praesentium harum optio? Aliquid?
+        </p>
+      </div>
+      <img src="img/team.jpg" alt="" />
+    </section>
+    <section class="container-productos">
+      <h2>Productos</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="img/image.jpg" alt="" />
+          <div class="texto">
+            <a
+              class="text-light"
+              style="text-decoration: none"
+              href="catalogo.html"
+              ><p>Nombre del Producto S/.0</p></a
+            >
+          </div>
+        </div>
+        <div class="producto">
+          <img src="img/image.jpg" alt="" />
+          <div class="texto">
+            <a
+              class="text-light"
+              style="text-decoration: none"
+              href="catalogo.html"
+              ><p>Nombre del Producto S/.0</p></a
+            >
+          </div>
+        </div>
+        <div class="producto">
+          <img src="img/image.jpg" alt="" />
+          <div class="texto">
+            <a
+              class="text-light"
+              style="text-decoration: none"
+              href="catalogo.html"
+              ><p>Nombre del Producto S/.0</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-descuentos">
+      <div class="pantalla">
+        <div class="descuento">
+          <h2>Reciclar</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iste
+            incidunt, maxime cupiditate tempora natus voluptatem ut enim
+            nesciunt voluptate quam vero sint dolor nam, sapiente quaerat
+            obcaecati, cumque maiores?
+          </p>
+        </div>
+        <a href="reciclar.html"
+          ><button class="btn-descuento">Reciclar</button></a
+        >
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="d-flex justify-content-center text-light fs-3">
+        <div class="m-5">
+          <i class="bi bi-facebook ms-3 me-3"></i>
+          <i class="bi bi-twitter ms-3 me-3"></i>
+          <i class="bi bi-instagram ms-3 me-3"></i>
+          <i class="bi bi-whatsapp ms-3 me-3"></i>
+        </div>
+      </div>
+      <ul class="nav justify-content-center pb-2">
+        <li class="nav-item">
+          <a class="nav-link text-light" aria-current="page" href="#">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">CANJE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">¿COMO USAR?</a>
+        </li>
+      </ul>
+      <div class="logo text-center">
+        <img src="img/logopng.png" class="img-logo mb-2" alt="" />
+      </div>
+      <div class="text-center pb-3">
+        <span class="text-light"
+          >Copyright © 2022 All rights reserved - BioRecycle</span
+        >
+        <br />
+        <span class="text-light">Designe by DUENDES VERDES</span>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

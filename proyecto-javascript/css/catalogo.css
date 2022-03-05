@@ -1,0 +1,26 @@
+.catalogo {
+  background-color: #413838;
+}
+
+.catalogo-products {
+  background-color: #85b595;
+}
+
+.boton-verde {
+  background-color: #85b595;
+  border-radius: 2px;
+  border: none;
+  width: 80px;
+  height: 35px;
+}
+
+.imagen-catalogo {
+  width: 25vw;
+  height: 30vh;
+}
+
+.carta-oscura {
+  background-color: #413838;
+}
+
+/* verde #85B595, negro #413838, y el de las letras es blanco normal que es #FFFFFF */
